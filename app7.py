@@ -1,6 +1,7 @@
 import streamlit as st
 import speech_recognition as sr
 from textblob import TextBlob
+import pyaudio
 
 def analyze_sentiment(text):
     '''
